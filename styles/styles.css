@@ -1,0 +1,89 @@
+/* Login page */
+
+#background{
+    background-image: url(../static/images/loginBackground.jpg);
+    /* opacity: 0.2; */
+}
+
+
+#backGroundLogin{
+    /* background-image: url(../static/images/loginBackground.jpg); */
+    /* opacity: 0.2; */
+    /* background-size: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 100%;
+    border: 2px wheat solid;
+}
+
+
+
+#loginOuter{
+    display: flex;
+    flex-direction: column;
+    border: 2px blueviolet solid;
+    padding: 3%;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: 3px 3px rgb(96, 205, 238), -1em 0 .4em rgb(198, 124, 221); 
+}
+
+
+#logo{
+    border-radius: 50%;
+    height: 80px;
+}
+
+
+#logoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#loginHeading{
+    text-align: center;
+    padding: 5%;
+}
+
+#usernameBlock,#passwordBlock, #rememberMe{
+    /* padding: 10px; */
+    margin: 10px;
+    
+}
+
+.loginCred{
+    outline: none;
+    border: none;
+}
+.line{
+    height: 0%;
+    width: initial;
+    border: 1px blue solid;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#LoginButton{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#loginBtn{
+    outline: none;
+    border: rgb(66, 64, 209) 2px solid;
+    border-radius: 40%;
+    padding: 5%;
+}
+
+#forgetPass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
